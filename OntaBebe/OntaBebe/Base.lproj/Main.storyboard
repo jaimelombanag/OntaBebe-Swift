@@ -26,17 +26,40 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgS-5K-F8c">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Wa-7n-SZb">
+                                        <rect key="frame" x="0.0" y="193" width="375" height="240"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="e7s-h5-pv6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1Wa-7n-SZb" firstAttribute="top" secondItem="zgS-5K-F8c" secondAttribute="top" constant="193" id="1eR-fP-B7p"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Wa-7n-SZb" secondAttribute="trailing" id="fzZ-HY-tgK"/>
+                                    <constraint firstItem="1Wa-7n-SZb" firstAttribute="leading" secondItem="zgS-5K-F8c" secondAttribute="leading" id="zUB-jH-hl6"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="HIO-eb-4uG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="92Q-X5-VK5"/>
-                            <constraint firstItem="HIO-eb-4uG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DUX-GD-I9X"/>
-                            <constraint firstItem="HIO-eb-4uG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iGQ-K0-iBe"/>
-                            <constraint firstItem="HIO-eb-4uG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oO7-zI-74R"/>
+                            <constraint firstItem="HIO-eb-4uG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0cu-xb-pyb"/>
+                            <constraint firstItem="HIO-eb-4uG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4Kp-Ou-uMh"/>
+                            <constraint firstItem="zgS-5K-F8c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="81T-kN-oDV"/>
+                            <constraint firstItem="HIO-eb-4uG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CmM-qG-erF"/>
+                            <constraint firstItem="zgS-5K-F8c" firstAttribute="leading" secondItem="HIO-eb-4uG" secondAttribute="leading" id="FoR-Qz-iOD"/>
+                            <constraint firstItem="HIO-eb-4uG" firstAttribute="trailing" secondItem="zgS-5K-F8c" secondAttribute="trailing" id="WMd-pJ-Phl"/>
+                            <constraint firstItem="zgS-5K-F8c" firstAttribute="bottom" secondItem="HIO-eb-4uG" secondAttribute="bottom" id="YZ7-zQ-rSi"/>
+                            <constraint firstAttribute="trailing" secondItem="zgS-5K-F8c" secondAttribute="trailing" id="xHu-PI-zDt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="gifView" destination="1Wa-7n-SZb" id="PTV-L8-v5q"/>
+                        <outlet property="vistaGif" destination="zgS-5K-F8c" id="m6n-BO-JlU"/>
                         <outlet property="webVista" destination="HIO-eb-4uG" id="xk1-qD-R9B"/>
                     </connections>
                 </viewController>

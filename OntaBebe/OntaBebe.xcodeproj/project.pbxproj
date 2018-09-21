@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF135C3F2155653D0096C91B /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF135C3E2155653D0096C91B /* Swift+Gif.swift */; };
+		AF135C41215566230096C91B /* init.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF135C40215566230096C91B /* init.gif */; };
 		AF92AB232152AE5700F0A03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF92AB222152AE5700F0A03F /* AppDelegate.swift */; };
 		AF92AB252152AE5700F0A03F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF92AB242152AE5700F0A03F /* ViewController.swift */; };
 		AF92AB282152AE5700F0A03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF92AB262152AE5700F0A03F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF135C3E2155653D0096C91B /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		AF135C40215566230096C91B /* init.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = init.gif; sourceTree = "<group>"; };
 		AF92AB1F2152AE5700F0A03F /* OntaBebe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OntaBebe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF92AB222152AE5700F0A03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF92AB242152AE5700F0A03F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			children = (
 				AF92AB222152AE5700F0A03F /* AppDelegate.swift */,
 				AF92AB242152AE5700F0A03F /* ViewController.swift */,
+				AF135C40215566230096C91B /* init.gif */,
 				AF92AB262152AE5700F0A03F /* Main.storyboard */,
 				AF92AB292152AE5800F0A03F /* Assets.xcassets */,
 				AF92AB2B2152AE5800F0A03F /* LaunchScreen.storyboard */,
 				AF92AB2E2152AE5800F0A03F /* Info.plist */,
+				AF135C3E2155653D0096C91B /* Swift+Gif.swift */,
 			);
 			path = OntaBebe;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF135C41215566230096C91B /* init.gif in Resources */,
 				AF92AB2D2152AE5800F0A03F /* LaunchScreen.storyboard in Resources */,
 				AF92AB2A2152AE5800F0A03F /* Assets.xcassets in Resources */,
 				AF92AB282152AE5700F0A03F /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF92AB252152AE5700F0A03F /* ViewController.swift in Sources */,
+				AF135C3F2155653D0096C91B /* Swift+Gif.swift in Sources */,
 				AF92AB232152AE5700F0A03F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
