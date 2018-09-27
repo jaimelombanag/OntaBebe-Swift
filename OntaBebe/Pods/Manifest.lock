@@ -1,0 +1,21 @@
+PODS:
+  - VBRRollingPit (1.0.0)
+
+DEPENDENCIES:
+  - VBRRollingPit (from `https://github.com/v-braun/VBRRollingPit.git`)
+
+EXTERNAL SOURCES:
+  VBRRollingPit:
+    :git: https://github.com/v-braun/VBRRollingPit.git
+
+CHECKOUT OPTIONS:
+  VBRRollingPit:
+    :commit: 2e98939f7febba9029b8cbbbe6f2d8c370556109
+    :git: https://github.com/v-braun/VBRRollingPit.git
+
+SPEC CHECKSUMS:
+  VBRRollingPit: f8b22027740d7972ab22ee7925a81618ad57326b
+
+PODFILE CHECKSUM: a681a19dc3ac54ba0b7c62535bcedb047308772e
+
+COCOAPODS: 1.5.3

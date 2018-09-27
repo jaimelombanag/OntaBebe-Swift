@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2A0744CEE51EFB059D0CB9 /* Pods_OntaBebe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABF48FD9AF01B99B30196FD /* Pods_OntaBebe.framework */; };
 		AF135C3F2155653D0096C91B /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF135C3E2155653D0096C91B /* Swift+Gif.swift */; };
 		AF135C41215566230096C91B /* init.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF135C40215566230096C91B /* init.gif */; };
 		AF92AB232152AE5700F0A03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF92AB222152AE5700F0A03F /* AppDelegate.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CC79F63F044D146BF3B2A69 /* Pods-OntaBebe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OntaBebe.release.xcconfig"; path = "Pods/Target Support Files/Pods-OntaBebe/Pods-OntaBebe.release.xcconfig"; sourceTree = "<group>"; };
+		4ABF48FD9AF01B99B30196FD /* Pods_OntaBebe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OntaBebe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF135C3E2155653D0096C91B /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		AF135C40215566230096C91B /* init.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = init.gif; sourceTree = "<group>"; };
 		AF92AB1F2152AE5700F0A03F /* OntaBebe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OntaBebe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +29,7 @@
 		AF92AB292152AE5800F0A03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF92AB2C2152AE5800F0A03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF92AB2E2152AE5800F0A03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F354C698EAF2614E47B5B256 /* Pods-OntaBebe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OntaBebe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OntaBebe/Pods-OntaBebe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2A0744CEE51EFB059D0CB9 /* Pods_OntaBebe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A53BA914556CF37DED066E56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F354C698EAF2614E47B5B256 /* Pods-OntaBebe.debug.xcconfig */,
+				3CC79F63F044D146BF3B2A69 /* Pods-OntaBebe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF92AB162152AE5700F0A03F = {
 			isa = PBXGroup;
 			children = (
 				AF92AB212152AE5700F0A03F /* OntaBebe */,
 				AF92AB202152AE5700F0A03F /* Products */,
+				A53BA914556CF37DED066E56 /* Pods */,
+				E1B13BA9E1A77CDF2D6DDAF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +86,14 @@
 			path = OntaBebe;
 			sourceTree = "<group>";
 		};
+		E1B13BA9E1A77CDF2D6DDAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF48FD9AF01B99B30196FD /* Pods_OntaBebe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF92AB312152AE5800F0A03F /* Build configuration list for PBXNativeTarget "OntaBebe" */;
 			buildPhases = (
+				39198B3A0FA0F87A09E833F1 /* [CP] Check Pods Manifest.lock */,
 				AF92AB1B2152AE5700F0A03F /* Sources */,
 				AF92AB1C2152AE5700F0A03F /* Frameworks */,
 				AF92AB1D2152AE5700F0A03F /* Resources */,
+				2578FE84BC683FA4E6ABD8A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +162,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2578FE84BC683FA4E6ABD8A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OntaBebe/Pods-OntaBebe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VBRRollingPit/VBRRollingPit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VBRRollingPit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OntaBebe/Pods-OntaBebe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39198B3A0FA0F87A09E833F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OntaBebe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF92AB1B2152AE5700F0A03F /* Sources */ = {
@@ -286,6 +351,7 @@
 		};
 		AF92AB322152AE5800F0A03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F354C698EAF2614E47B5B256 /* Pods-OntaBebe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +370,7 @@
 		};
 		AF92AB332152AE5800F0A03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC79F63F044D146BF3B2A69 /* Pods-OntaBebe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

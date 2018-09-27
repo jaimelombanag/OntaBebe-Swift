@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        /*
         webVista.isHidden = true
         vistaGif.isHidden = false
         gifView.loadGif(name: "init")
@@ -38,9 +39,13 @@ class ViewController: UIViewController {
             self.vistaGif.isHidden = true
         }
         
+ */
         
+        let url:URL = URL(string: "http://www.ontabebe.shop")!
+        let urlRequest:URLRequest = URLRequest(url: url)
+        webVista.load(urlRequest)
         
-        
+ 
     }
     
     override func didReceiveMemoryWarning() {
@@ -52,9 +57,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear( animated )
-        let url:URL = URL(string: "http://www.ontabebe.shop")!
-        let urlRequest:URLRequest = URLRequest(url: url)
-        webVista.load(urlRequest)
+        
 
     }
     

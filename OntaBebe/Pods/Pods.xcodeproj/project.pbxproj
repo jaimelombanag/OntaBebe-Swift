@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1769417715255CAE54844505FACEFCA3 /* VBRRollingPit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D122C37FC574D979CBE5F2C86BACDAA /* VBRRollingPit-dummy.m */; };
+		1C6BBA4C92B9544EB1923E29A6FCD592 /* VBRRollingPit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6046EFF79DD3BA13845AE4DEADC0544 /* VBRRollingPit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CB7985287C10229FCD9F5084E7C7E24 /* RollingPitTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382CE2BFD805DDDAF8CB5DDF2BEAA0F3 /* RollingPitTabBar.swift */; };
+		5B112075804129541065A46852971832 /* Pods-OntaBebe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A9C9C007321F5E20D94BA53E9356EF /* Pods-OntaBebe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997AB971DA20FE33CDF068BC4500360F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B0853A3DF7ADA62C7C1D7F86494736AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C8CA1DDB63329D9010E568A9AC2E1A59 /* Pods-OntaBebe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66281C54823B529F3336D541ED1D4996 /* Pods-OntaBebe-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9E81FB3E6EA7D5DB8B489EEBB4CD1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936EAA5425C7CBC82AB95B7C0CD61CAF;
+			remoteInfo = VBRRollingPit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F0250992E6C002450507392E85E883 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B49BE6F12E9D5B70F1233CD206E852F /* Pods-OntaBebe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OntaBebe-resources.sh"; sourceTree = "<group>"; };
+		0CA265528FE5332D48944F537C918183 /* Pods-OntaBebe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OntaBebe.modulemap"; sourceTree = "<group>"; };
+		145BEEC4AA00EFDE09A55517F2F960E5 /* Pods-OntaBebe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OntaBebe.debug.xcconfig"; sourceTree = "<group>"; };
+		17F555A53096C1FCCA944AF242880C0A /* Pods-OntaBebe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OntaBebe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24EDA63D745BE9F2EC02DE0B0C93E976 /* Pods-OntaBebe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OntaBebe.release.xcconfig"; sourceTree = "<group>"; };
+		382CE2BFD805DDDAF8CB5DDF2BEAA0F3 /* RollingPitTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollingPitTabBar.swift; path = VBRRollingPit/VBRRollingPit/RollingPitTabBar.swift; sourceTree = "<group>"; };
+		4C6AF24EA6FFCECBAC6B587FFB41A8BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5959202E6D4AA2A6A219140640A00FE8 /* VBRRollingPit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VBRRollingPit.modulemap; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66281C54823B529F3336D541ED1D4996 /* Pods-OntaBebe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OntaBebe-dummy.m"; sourceTree = "<group>"; };
+		6BC40E312F42343D3940E99C203CB9B0 /* VBRRollingPit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VBRRollingPit.xcconfig; sourceTree = "<group>"; };
+		6D122C37FC574D979CBE5F2C86BACDAA /* VBRRollingPit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VBRRollingPit-dummy.m"; sourceTree = "<group>"; };
+		7CB80A52A4A28E2479626337084CF966 /* VBRRollingPit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBRRollingPit-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A37929AF048E9EA82A8F6994F941BA7C /* Pods-OntaBebe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OntaBebe-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6046EFF79DD3BA13845AE4DEADC0544 /* VBRRollingPit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBRRollingPit-umbrella.h"; sourceTree = "<group>"; };
+		B8A9C9C007321F5E20D94BA53E9356EF /* Pods-OntaBebe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OntaBebe-umbrella.h"; sourceTree = "<group>"; };
+		BB1164FB181F1E9C7C1BF49738289EF7 /* Pods-OntaBebe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OntaBebe-frameworks.sh"; sourceTree = "<group>"; };
+		EEA3C39C1D718FA9341DD0869E7B05DC /* Pods_OntaBebe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OntaBebe.framework; path = "Pods-OntaBebe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9CF1F0D76C25F60054D5ADBCFE6474 /* VBRRollingPit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VBRRollingPit.framework; path = VBRRollingPit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181A894E3236A504D592A1E5F5F6152A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997AB971DA20FE33CDF068BC4500360F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67645116B61A953C455F895C8D48A114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0853A3DF7ADA62C7C1D7F86494736AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304E16C48A31DD949689F4C4CB6F5D6B /* Pods-OntaBebe */ = {
+			isa = PBXGroup;
+			children = (
+				4C6AF24EA6FFCECBAC6B587FFB41A8BE /* Info.plist */,
+				0CA265528FE5332D48944F537C918183 /* Pods-OntaBebe.modulemap */,
+				17F555A53096C1FCCA944AF242880C0A /* Pods-OntaBebe-acknowledgements.markdown */,
+				A37929AF048E9EA82A8F6994F941BA7C /* Pods-OntaBebe-acknowledgements.plist */,
+				66281C54823B529F3336D541ED1D4996 /* Pods-OntaBebe-dummy.m */,
+				BB1164FB181F1E9C7C1BF49738289EF7 /* Pods-OntaBebe-frameworks.sh */,
+				0B49BE6F12E9D5B70F1233CD206E852F /* Pods-OntaBebe-resources.sh */,
+				B8A9C9C007321F5E20D94BA53E9356EF /* Pods-OntaBebe-umbrella.h */,
+				145BEEC4AA00EFDE09A55517F2F960E5 /* Pods-OntaBebe.debug.xcconfig */,
+				24EDA63D745BE9F2EC02DE0B0C93E976 /* Pods-OntaBebe.release.xcconfig */,
+			);
+			name = "Pods-OntaBebe";
+			path = "Target Support Files/Pods-OntaBebe";
+			sourceTree = "<group>";
+		};
+		48A20A5352C99E1FDAEE270B64A32115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA3C39C1D718FA9341DD0869E7B05DC /* Pods_OntaBebe.framework */,
+				FC9CF1F0D76C25F60054D5ADBCFE6474 /* VBRRollingPit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542F87499A947301CFA3CA8DE076C4E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03F0250992E6C002450507392E85E883 /* Info.plist */,
+				5959202E6D4AA2A6A219140640A00FE8 /* VBRRollingPit.modulemap */,
+				6BC40E312F42343D3940E99C203CB9B0 /* VBRRollingPit.xcconfig */,
+				6D122C37FC574D979CBE5F2C86BACDAA /* VBRRollingPit-dummy.m */,
+				7CB80A52A4A28E2479626337084CF966 /* VBRRollingPit-prefix.pch */,
+				A6046EFF79DD3BA13845AE4DEADC0544 /* VBRRollingPit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VBRRollingPit";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7285EB263C4DD2ADB02219ABA7586CD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				304E16C48A31DD949689F4C4CB6F5D6B /* Pods-OntaBebe */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D749145E3BF042B96934CE7171C5E38B /* Pods */,
+				48A20A5352C99E1FDAEE270B64A32115 /* Products */,
+				7285EB263C4DD2ADB02219ABA7586CD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		977179BF77B768623A35ECA6FF1D9FCF /* VBRRollingPit */ = {
+			isa = PBXGroup;
+			children = (
+				382CE2BFD805DDDAF8CB5DDF2BEAA0F3 /* RollingPitTabBar.swift */,
+				542F87499A947301CFA3CA8DE076C4E8 /* Support Files */,
+			);
+			name = VBRRollingPit;
+			path = VBRRollingPit;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D749145E3BF042B96934CE7171C5E38B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				977179BF77B768623A35ECA6FF1D9FCF /* VBRRollingPit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7564165249B531664C2091DD1BA48A23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B112075804129541065A46852971832 /* Pods-OntaBebe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E01C1F6B15DEF4DB500BCB80072E5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BBA4C92B9544EB1923E29A6FCD592 /* VBRRollingPit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C73B8B3906C90D655B6646B22E28EC8 /* Pods-OntaBebe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90253C16857A0631B9D06F717D44FE1B /* Build configuration list for PBXNativeTarget "Pods-OntaBebe" */;
+			buildPhases = (
+				43C22773D8ED039DA1EF77D3B01BB3E5 /* Sources */,
+				67645116B61A953C455F895C8D48A114 /* Frameworks */,
+				7564165249B531664C2091DD1BA48A23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191231E80D805C42F44B5E87F8777D7F /* PBXTargetDependency */,
+			);
+			name = "Pods-OntaBebe";
+			productName = "Pods-OntaBebe";
+			productReference = EEA3C39C1D718FA9341DD0869E7B05DC /* Pods_OntaBebe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		936EAA5425C7CBC82AB95B7C0CD61CAF /* VBRRollingPit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522AA65E92FA24887363FBD83E68F3D4 /* Build configuration list for PBXNativeTarget "VBRRollingPit" */;
+			buildPhases = (
+				EE224510A09322D71B01333259C89CC0 /* Sources */,
+				181A894E3236A504D592A1E5F5F6152A /* Frameworks */,
+				78E01C1F6B15DEF4DB500BCB80072E5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VBRRollingPit;
+			productName = VBRRollingPit;
+			productReference = FC9CF1F0D76C25F60054D5ADBCFE6474 /* VBRRollingPit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 48A20A5352C99E1FDAEE270B64A32115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C73B8B3906C90D655B6646B22E28EC8 /* Pods-OntaBebe */,
+				936EAA5425C7CBC82AB95B7C0CD61CAF /* VBRRollingPit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C22773D8ED039DA1EF77D3B01BB3E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CA1DDB63329D9010E568A9AC2E1A59 /* Pods-OntaBebe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE224510A09322D71B01333259C89CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB7985287C10229FCD9F5084E7C7E24 /* RollingPitTabBar.swift in Sources */,
+				1769417715255CAE54844505FACEFCA3 /* VBRRollingPit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191231E80D805C42F44B5E87F8777D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VBRRollingPit;
+			target = 936EAA5425C7CBC82AB95B7C0CD61CAF /* VBRRollingPit */;
+			targetProxy = E9E81FB3E6EA7D5DB8B489EEBB4CD1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA1027CE0678E8875F73D106900A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC40E312F42343D3940E99C203CB9B0 /* VBRRollingPit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VBRRollingPit/VBRRollingPit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VBRRollingPit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VBRRollingPit/VBRRollingPit.modulemap";
+				PRODUCT_MODULE_NAME = VBRRollingPit;
+				PRODUCT_NAME = VBRRollingPit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E2183DE9B7F952939B772F69FF47542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145BEEC4AA00EFDE09A55517F2F960E5 /* Pods-OntaBebe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OntaBebe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OntaBebe/Pods-OntaBebe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A37F07153999C7795DD2BF01952EDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EDA63D745BE9F2EC02DE0B0C93E976 /* Pods-OntaBebe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OntaBebe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OntaBebe/Pods-OntaBebe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D977F636F1AA7CC104A82E635824A089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC40E312F42343D3940E99C203CB9B0 /* VBRRollingPit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VBRRollingPit/VBRRollingPit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VBRRollingPit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VBRRollingPit/VBRRollingPit.modulemap";
+				PRODUCT_MODULE_NAME = VBRRollingPit;
+				PRODUCT_NAME = VBRRollingPit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522AA65E92FA24887363FBD83E68F3D4 /* Build configuration list for PBXNativeTarget "VBRRollingPit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D977F636F1AA7CC104A82E635824A089 /* Debug */,
+				0AA1027CE0678E8875F73D106900A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90253C16857A0631B9D06F717D44FE1B /* Build configuration list for PBXNativeTarget "Pods-OntaBebe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2183DE9B7F952939B772F69FF47542 /* Debug */,
+				5A37F07153999C7795DD2BF01952EDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
