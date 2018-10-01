@@ -126,7 +126,7 @@
             <objects>
                 <tabBarController storyboardIdentifier="initController" automaticallyAdjustsScrollViewInsets="NO" id="IGf-Xs-CPC" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="U7h-3O-Nkd" customClass="RollingPitTabBar" customModule="VBRRollingPit">
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="U7h-3O-Nkd" customClass="RollingPitTabBar" customModule="VBRRollingPit">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="0.20726082379999999" blue="0.36149098819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -141,6 +141,12 @@
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="circleBackColor">
                                 <color key="value" red="0.75686274509803919" green="0.30980392156862746" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBar>
@@ -177,7 +183,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eeB-za-uPO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="btn_inicio" selectedImage="btn_inicio" id="7og-4f-7kw"/>
+                    <tabBarItem key="tabBarItem" image="btn_inicio" selectedImage="btn_inicio" id="7og-4f-7kw">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="webVista" destination="yqV-kK-JCR" id="1tJ-CE-5Eg"/>
                     </connections>
