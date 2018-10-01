@@ -72,10 +72,10 @@
             <objects>
                 <viewController id="ePF-C6-jd2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P5T-uT-GX6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Encuentra" translatesAutoresizingMaskIntoConstraints="NO" id="tBg-g7-Ykl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tips" translatesAutoresizingMaskIntoConstraints="NO" id="tBg-g7-Ykl">
                                 <rect key="frame" x="10" y="10" width="355" height="618"/>
                             </imageView>
                         </subviews>
@@ -88,7 +88,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tKT-bJ-rL1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="init.gif" systemItem="more" id="86m-HH-3AJ"/>
+                    <tabBarItem key="tabBarItem" image="btn_tips" selectedImage="btn_tips" id="86m-HH-3AJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rNv-62-hXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,10 +99,10 @@
             <objects>
                 <viewController id="bxh-HQ-WnB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n7Z-we-jfY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wdc-LG-MWY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bio" translatesAutoresizingMaskIntoConstraints="NO" id="Wdc-LG-MWY">
                                 <rect key="frame" x="10" y="30" width="355" height="578"/>
                             </imageView>
                         </subviews>
@@ -115,7 +115,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3mS-Je-kz2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="fHR-fs-ah6"/>
+                    <tabBarItem key="tabBarItem" image="btn_nosotros" selectedImage="btn_nosotros" id="fHR-fs-ah6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="32A-Ah-F7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,11 +126,12 @@
             <objects>
                 <tabBarController storyboardIdentifier="initController" automaticallyAdjustsScrollViewInsets="NO" id="IGf-Xs-CPC" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U7h-3O-Nkd" customClass="RollingPitTabBar" customModule="VBRRollingPit">
+                    <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="U7h-3O-Nkd" customClass="RollingPitTabBar" customModule="VBRRollingPit">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.30196078430000001" green="0.67450980390000004" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.20726082379999999" blue="0.36149098819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.30196078430000001" green="0.67450980390000004" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="marginBottom">
                                 <real key="value" value="7"/>
@@ -159,7 +160,7 @@
             <objects>
                 <viewController id="AHP-1X-Rv0" customClass="ViewController" customModule="OntaBebe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CVC-C4-cxN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqV-kK-JCR">
@@ -176,7 +177,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eeB-za-uPO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="7og-4f-7kw"/>
+                    <tabBarItem key="tabBarItem" image="btn_inicio" selectedImage="btn_inicio" id="7og-4f-7kw"/>
                     <connections>
                         <outlet property="webVista" destination="yqV-kK-JCR" id="1tJ-CE-5Eg"/>
                     </connections>
@@ -190,10 +191,10 @@
             <objects>
                 <viewController id="Oyg-n7-89G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YKW-Wo-Blg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rDi-Ea-7bQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aquitamos" translatesAutoresizingMaskIntoConstraints="NO" id="rDi-Ea-7bQ">
                                 <rect key="frame" x="10" y="30" width="355" height="578"/>
                             </imageView>
                         </subviews>
@@ -206,7 +207,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FSr-5G-mXK"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="qxb-Am-wu1"/>
+                    <tabBarItem key="tabBarItem" image="btn_aqui" selectedImage="btn_aqui" id="qxb-Am-wu1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dzc-xh-xDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -214,7 +215,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Encuentra" width="820" height="1024"/>
-        <image name="init.gif" width="800" height="800"/>
+        <image name="Aquitamos" width="820" height="1024"/>
+        <image name="Bio" width="820" height="1024"/>
+        <image name="Tips" width="820" height="1213"/>
+        <image name="btn_aqui" width="50" height="50"/>
+        <image name="btn_inicio" width="50" height="50"/>
+        <image name="btn_nosotros" width="50" height="50"/>
+        <image name="btn_tips" width="50" height="50"/>
     </resources>
 </document>
