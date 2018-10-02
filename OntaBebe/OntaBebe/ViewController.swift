@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         
  */
         
-        let url:URL = URL(string: "http://www.ontabebe.shop")!
+        let url:URL = URL(string: "https://ontabebe.shop")!
         let urlRequest:URLRequest = URLRequest(url: url)
         webVista.load(urlRequest)
         
